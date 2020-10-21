@@ -22,4 +22,14 @@
   <build>
     <finalName>maven-web</finalName>
   </build>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>ossrh</id>
+    <url>http://3.138.120.27:8081/repository/release-repo</url>
+  </snapshotRepository>
+  <repository>
+    <id>ossrh</id>
+    <url>http://3.138.120.27:8081/repository/snapshot-repo/</url>
+  </repository>
+</distributionManagement>
 </project>
