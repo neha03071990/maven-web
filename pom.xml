@@ -24,11 +24,11 @@
   </build>
   <distributionManagement>
   <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
     <url>http://3.138.120.27:8081/repository/release-repo</url>
   </snapshotRepository>
   <repository>
-    <id>releases</id>
+    <id>nexus</id>
     <url>http://3.138.120.27:8081/repository/snapshot-repo/</url>
   </repository>
 </distributionManagement>
