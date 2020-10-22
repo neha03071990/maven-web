@@ -27,9 +27,9 @@
     <id>nexus</id>
     <url>http://3.138.120.27:8081/repository/release-repo</url>
   </repository>
-  <SnapshotRepository>
+  <snapshotRepository>
     <id>nexus</id>
     <url>http://3.138.120.27:8081/repository/snapshot-repo/</url>
-  </SnapshotRepository>
+  </snapshotRepository>
 </distributionManagement>
 </project>
